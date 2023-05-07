@@ -9,9 +9,9 @@
 <body>
   <div class="row justify-content-center">
     <div class="col-md-8">
-      <div class="card">
+      <div class="">
         @if (Session::has('message'))
-          <div class="alert alert-secondary">
+          <div class="alert alert-dark text-white">
             {{ Session::get('message') }}
           </div>
         @endif
